@@ -1,0 +1,113 @@
+<!doctype html>
+  <html>
+    <head>
+      <meta charset ="utf-8"> 
+     <meta name="viewport" content="width=device-width initial-scale=1.0">
+      <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <title>PenIt</title>
+      <style type="text/css" media="(min-width: 500px)">
+        body{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size:12px;
+     background-image: url("images/dothis.jpg");
+     background-color: white;}
+   header{
+     width:100%;}
+   a {
+     color: white;
+     text-decoration: none;}
+   h1  {
+       text-align: left;
+       font-size: 150%;
+       font-style: italic;
+       color:white;
+       background-color:dimgrey;
+       float: left;}
+    nav{
+       margin:0px;
+       padding:6px;
+       background-color: dimgrey;
+       font-size:150%;
+       height:40px;}
+    nav ul {
+      list-style: none;
+      font-size: 16px;
+      overflow: auto;
+      display:block;}
+    nav ul li.navi {
+       margin-right: 10px;
+       float:right;
+       padding:10px;
+       color:white;
+       display:block;}
+   nav.coming-soon {
+       display:none;}
+       div.successlog{
+          font-size: 15px;
+          text-align: center;}
+    div.successlog input{
+      border-bottom: 1px solid #efefef;
+      margin: 12px;
+      padding-bottom: 13px;
+      text-align:center;
+      width: 190px;}
+      div.successlog input.listadd{
+      border-bottom: 1px solid #efefef;
+      margin: 10px;
+      padding-bottom: 8px;
+      text-align:center;
+      width: 90px;}
+      input.focus{
+          outline: none;}
+          ul.listit{
+             text-align:center; }
+        ul.listit{
+          margin:0px;
+           padding:0px;}
+           ul.listit{
+             cursor: pointer;
+             position:relative;
+             padding: 12px 8px 12px 48px;
+             font-size: 14px;
+             transition: 0.2s;}
+      p.more{
+         font-size: 25px; }
+    footer p.grid_12 {
+       margin-right: 10px;
+       text-align: center;
+       padding:0px;
+       font-size: 15px;
+       color:white;
+       display:block;}
+        </style>
+        <body>
+            <h1> PenIt</h1>
+      <script src = "addlist.js"></script>
+        <nav>
+          <ul>
+            <li class="navi"><a href = "Profile.html">profile</a></li>
+           </ul>
+         </nav>
+          <br>
+          <br>
+          <br>
+          <br>
+         <div class="successlog">
+            <p class="more">Add more list to your list!</p>
+            <input type="text" id="myInput" size="40" maxlength="50" placeholder="add list..." />
+            <input type="button" onclick="newElement()" class="listadd" value="Add list"/> 
+            <ul id="listit"> </ul>            
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+         <footer>
+            <p class="grid_12"><a href="">About</a> | <a href="">Privacy
+              Policy</a> | <a href="">cookies</a> | <a href="">terms</a> | <a href="">Copyright &copy; Moa Mel 2019</a></p>
+           </footer>
+           </body>
+           </head>
+</html>

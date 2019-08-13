@@ -1,0 +1,116 @@
+<!doctype html>
+  <html>
+    <head>
+      <meta charset ="utf-8"> 
+     <meta name="viewport" content="width=device-width initial-scale=1.0">
+      <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <title>PenIt</title>
+      <style type="text/css">
+        body{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size:12px;
+     background-image: url("images/dothis.jpg");
+     background-color: white;}
+   header{
+     width:100%;}
+   a {
+     color: white;
+     text-decoration: none;}
+   h1  {
+       text-align: left;
+       font-size: 150%;
+       font-style: italic;
+       color:white;
+       background-color:dimgrey;
+       float: left;}
+    nav{
+       margin:0px;
+       padding:6px;
+       background-color: dimgrey;
+       font-size:150%;
+       height:40px;}
+    nav ul {
+      list-style: none;
+      font-size: 16px;
+      overflow: auto;
+      display:block;}
+    nav ul li.navi {
+       margin-right: 10px;
+       float:right;
+       padding:10px;
+       color:white;
+       display:block;}
+   nav.coming-soon {
+       display:none;}
+       div.login{
+          font-size: 15px;
+          text-align: center;}
+    div.login p.emailin input{
+      border-bottom: 1px solid #efefef;
+      margin: 12px;
+      font-size: 100px;
+      padding-bottom: 13px;
+      text-align:center;
+      width: 170px;}
+      div.login p.passin input{
+      border-bottom: 1px solid #efefef;
+      margin: 12px;
+      padding-bottom: 13px;
+      text-align:center;
+      width: 170px;}
+      div.login p.sumbit-in{
+      border-bottom: 1px solid #efefef;
+      margin: 12px;
+      padding-bottom: 13px;
+      text-align:center;
+      width: 100px;}
+      div.login p.heckox  {
+      text-align:center;}
+      footer p.grid_12 {
+       margin-right: 10px;
+       text-align: center;
+       padding:0px;
+       font-size: 15px;
+       color:white;
+       display:block;}
+        </style>
+        <body>
+            <h1> PenIt</h1>
+      <script src = "PenIt.js"></script>
+        <nav>
+          <ul>
+            <li class="navi"><a href = "Profile.html">profile</a></li>
+           </ul>
+         </nav>
+         <br>
+         <br>
+         <br>
+         <div SignIn class="login" >
+         <form action="addlist.html"method="get">
+            <p class="emailin"> Email </p>
+              <input type="text" name="Username" size="20" maxlength="30"/>
+                <p class=passin> Password</p>
+              <input type="password" name="password" size="10" maxlength="30"/>
+           <p class="submit-in">
+              <input type="submit" value ="Sign In"/>
+           </p>
+              </form>
+           <form action="forget.html" class="check">
+   <p class="heckox">
+    <input type="checkbox" name="service" class="heckox" value="forget password?"  /> forget password?
+  </p>
+          </form>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+         <footer>
+            <p class="grid_12"><a href="">About</a> | <a href="">Privacy
+              Policy</a> | <a href="">cookies</a> | <a href="">terms</a> | <a href="">Copyright &copy; Moa Mel 2019</a></p>
+           </footer>
+      </body>
+</head>
+</html>
